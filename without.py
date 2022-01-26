@@ -213,7 +213,7 @@ def log_fb():
             menu()
         elif 'www.facebook.com' in q['error']:
             print ''
-            print '\t\x1b[1;91mFlame cp😭'
+            print '\t\x1b[1;91mFlame cp'
             print ''
             time.sleep(1)
             login()
@@ -278,8 +278,8 @@ def menu():
     print ' \t       [\x1b[1;97m\x1b[1;41m  Choose method  \x1b[0m\x1b[1;93m]'.center(50)
     print ''
     print 47 * '\x1b[1;93m\xe2\x96\xac'
-    print '\x1b[1;93m[1] \x1b[1;92mCRACK WITH AUTO PASS🤔\n'
-    print '\x1b[1;93m[2] \x1b[1;92mCRACK WITH CHOICE DIGIT PASS🤔\n'
+    print '\x1b[1;93m[1] \x1b[1;92mCRACK WITH AUTO PASS\n'
+    print '\x1b[1;93m[2] \x1b[1;92mCRACK WITH CHOICE DIGIT PASS\n'
     print '\x1b[1;93m[3] \x1b[1;92mBACK'
     print 47 * '\x1b[1;93m\xe2\x96\xac'
     print ''
@@ -318,7 +318,7 @@ def crack():
     print ''
     print ''
     print 47 * '\x1b[1;93m\xe2\x96\xac'
-    print '\x1b[1;93m[1] \x1b[1;92mCRACK FROM PUBLIC ID🤤🤤     \x1b[1;91m[ Crack 3 links ]\n'
+    print '\x1b[1;93m[1] \x1b[1;92mCRACK FROM PUBLIC ID     \x1b[1;91m[ Crack 3 links ]\n'
     print '\x1b[1;93m[2] \x1b[1;92mCRACK FROM FOLLOWERS ID  \x1b[1;91m[ Crack 3 links ]\n'
     print '\x1b[1;93m[0] \x1b[1;92mBACK'
     print 47 * '\x1b[1;93m\xe2\x96\xac'
