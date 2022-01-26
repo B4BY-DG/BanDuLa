@@ -46,9 +46,9 @@ header = {
     'content-type': 'application/x-www-form-urlencoded',
     'x-fb-http-engine': 'Liger' }
 
-logo = """
-
-
+logo = ''' /033[1;35m
+\n       / __ )/   |  / | / / __ \/ / / / /   /   |\n      / __  / /| | /  |/ / / / / / / / /   / /| |\n     / /_/ / ___ |/ /|  / /_/ / /_/ / /___/ ___ |\n    /_____/_/  |_/_/ |_/_____/\____/_____/_/  |_|\n \n ☆━━━━═══ • • ═══❖ ── ✦ ──『✙ M4RMU ✙』── ✦ ── ❖═══ • • ━━━━━☆'''
+ 
 
 def tool():
     os.system('clear')
