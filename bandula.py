@@ -21,6 +21,10 @@ try:
     import string
     from multiprocessing.pool import ThreadPool
     from requests.exceptions import ConnectionError
+
+    import os,sys,time,platform,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib,requests,uuid,string,subprocess
+    from multiprocessing.pool import ThreadPool
+    from requests.exceptions import ConnectionError 
 except ImportError:
     os.system('pip2 install requests')
 
