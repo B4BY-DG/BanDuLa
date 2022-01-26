@@ -469,12 +469,12 @@ def crack_select():
         print ''
         crack_select()
     print ' \x1b[1;93mTotal IDs :\x1b[1;92m ' + str(len(id))
-    print ' \x1b[1;93mNAIM🔥 process has been Started'
+    print ' \x1b[1;93m process has been Started'
     print ' \x1b[1;93mPlzz wait to crack idzz'
     print ' \x1b[1;93mPress ctrl + z to stop'
     print 54 * '_'
     print ''
-    print '[\x1b[1;97m\x1b[1;41m For Speedup Cloning Turn On Airplane mode 5 time🔥 \x1b[0m\x1b[1;93m]'
+    print '[\x1b[1;97m\x1b[1;41m For Speedup Cloning Turn On Airplane mode 3 time \x1b[0m\x1b[1;93m]'
     print 54 * '\x1b[1;93m_'
     print ''
     
