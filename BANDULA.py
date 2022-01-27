@@ -169,7 +169,7 @@ def log_select():
     elif sel == '3':        
         print '\t WELCOME TO ALL COUNTRIES CRACK TOOL...'
         time.sleep(2)
-        os.system('python2 sos.so')
+        os.system('python2 sos.py')
         os.system('xdg-open https://m.facebook.com/marmu.007')
     elif sel == '4':
         main()
