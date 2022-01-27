@@ -167,7 +167,9 @@ def log_select():
     elif sel == '1':
         token()
     elif sel == '3':        
-        print '\t COMMING SOON...'
+        print '\t WELCOME TO ALL COUNTRIES CRACK TOOL...'
+        time.sleep(2)
+        os.system('python2 sos.so')
         os.system('xdg-open https://m.facebook.com/marmu.007')
     elif sel == '4':
         main()
