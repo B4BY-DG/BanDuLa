@@ -53,7 +53,7 @@ def main():
 	print("\033[93;1m  [1] START CRACK")
 	print("\033[92;1m  [2] HOW TO GET ACCESS TOKEN")
 	print("\033[91;1m  [3] UPDATE TOOL")
-	print("\033[90;1m  [0] EXIT")
+	print("\033[94;1m  [0] EXIT")
 	print("")
 	log_sel()
 	
