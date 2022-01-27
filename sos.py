@@ -67,8 +67,8 @@ logo = """
 \033[1;96m →→→→→→→→→       тεcнησℓσgү вү мαямυ    ←←←←←←←←←←
 \033[1;94m---------------------------------------------------"""
 
-B4BY = BANDULA
-DRAGON = BANDULA
+B4BY = "BANDULA"
+DRAGON = "BANDULA"
  
 os.system('clear')
 print logo
