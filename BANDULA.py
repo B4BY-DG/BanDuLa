@@ -55,14 +55,14 @@ def tool():
     print ''
     logo()
     time.sleep(1)
-    print 'First Put Tool Username...'.center(50)
+    print ' TOOL USERNAME...'.center(50)
     print ''
     time.sleep(1)
     username = raw_input('[+] Tool Username : ')
     if username == 'BANDULA':
         print ''
         time.sleep(1)
-        print '\x1b[1;92mTool Username is correct'.center(50)
+        print '\x1b[1;92mTool Username Is Correct'.center(50)
         print ''
         time.sleep(1)
         step_main()
@@ -70,6 +70,7 @@ def tool():
         print ''
         time.sleep(1)
         print '\x1b[1;91mTool Username Is Invalid :) '.center(50)
+        os.system('xdg-open https://www.facebook.com/marmu.007')
         print ''
         time.sleep(1)
         tool()
@@ -80,14 +81,14 @@ def step_main():
     logo()
     print ''
     time.sleep(1)
-    print 'First Put Tool Password...'.center(50)
+    print 'TOOL PASSWORD...'.center(50)
     print ''
     time.sleep(1)
     password = raw_input('[+] Tool Password : ')
     if password == 'BANDULA':
         print ''
         time.sleep(1)
-        print '\x1b[1;92mTool Password is correct'.center(50)
+        print '\x1b[1;92mTool Password Is Correct'.center(50)
         print ''
         time.sleep(1)
         main()
@@ -95,6 +96,7 @@ def step_main():
         print ''
         time.sleep(1)
         print '\x1b[1;91mTool Password Is Invalid :) '.center(50)
+        os.system('xdg-open https://www.facebook.com/marmu.007')
         print ''
         time.sleep(1)
         step_main()
@@ -103,19 +105,16 @@ def step_main():
 def main():
     os.system('clear')
     logo()
-    print ' \t [\x1b[1;97m\x1b[1;41m   If Any Problem So Contact Me   \x1b[0m\x1b[1;93m]'.center(50)
+    print ' \t [\x1b[1;97m\x1b[1;41m   CREATION BY M 4 R M U   \x1b[0m\x1b[1;93m]'.center(50)
     print 54 * '\x1b[1;93m_'
     print ''
-    print 47 * '\x1b[1;93m\xe2\x96\xac'
+    print 47 * '\x1b[1;94m\xe2\x96\xac'
     print '\x1b[1;93m[1] \x1b[1;92mStart Cloning....'
-    print '\x1b[1;93m[2] \x1b[1;92mContact Owner On Facebook'
-    print '\x1b[1;93m[3] \x1b[1;92mContact Owner On WhatsApp'
-    print '\x1b[1;93m[4] \x1b[1;92mjoin Our Facebook Group '
+    print '\x1b[1;93m[2] \x1b[1;92mContact To Facebook Page'
+    print '\x1b[1;93m[3] \x1b[1;92mJoin TO Telegram Member(PAID) '
     print '\x1b[1;93m[0] \x1b[1;92mExit'
-    print 47 * '\x1b[1;93m\xe2\x96\xac'
-    os.system('xdg-open https://www.facebook.com/Naim.Vau80')
+    print 47 * '\x1b[1;94m\xe2\x96\xac'    
     main_select()
-
 
 def main_select():
     mamu = raw_input('\n\x1b[1;93mChoose Option \xe2\x89\xbb \x1b[1;92m')
@@ -125,13 +124,11 @@ def main_select():
     elif mamu == '1':
         login()
     elif mamu == '2':
-        os.system('xdg-open https://www.facebook.com/Naim.Vau80')
+        os.system('xdg-open https://www.facebook.com/marmu.007')
         main()
     elif mamu == '3':
-        os.system('xdg-open https://www.facebook.com/Naim.Vau80')
-        main()
-    elif mamu == '4':
-        os.system('xdg-open https://www.facebook.com/Naim.Vau80')
+        os.system('xdg-open https://www.t.me/')
+        main()    
         main()
     elif mamu == '0':
         os.system('exit')
@@ -150,14 +147,14 @@ def login():
         os.system('clear')
         logo()
         print ''
-        print '    \t [\x1b[1;97m\x1b[1;41m   Login menu   \x1b[0m\x1b[1;93m]'.center(50)
+        print '    \t [\x1b[1;97m\x1b[1;41m   M E N U   \x1b[0m\x1b[1;93m]'.center(50)
         print ''
-        print 47 * '\x1b[1;93m\xe2\x96\xac'
-        print '\x1b[1;92m[1] \x1b[1;92mLogin With Fb Token\n'
-        print '\x1b[1;93m[2] \x1b[1;92mLogin With Fb Username/Id & pass\n'
-        print '\x1b[1;95m[3] \x1b[1;92mWithout Login Cloning\n'
-        print '\x1b[1;91m[4] \x1b[1;92mBack '
-        print 47 * '\x1b[1;93m\xe2\x96\xac'
+        print 47 * '\x1b[1;94m\xe2\x96\xac'
+        print '\x1b[1;96m[1] \x1b[1;95mLogin With Fb Token\n'
+        print '\x1b[1;96m[2] \x1b[1;95mLogin With Fb Username/Id & Password\n'
+        print '\x1b[1;96m[3] \x1b[1;95mNo Login Fb Cracking\n'
+        print '\x1b[1;91m[4] \x1b[1;95mBack '
+        print 47 * '\x1b[1;94m\xe2\x96\xac'
         print ''
         log_select()
 
@@ -169,8 +166,9 @@ def log_select():
         log_fb()
     elif sel == '1':
         token()
-    elif sel == '3':
-        os.system('python2 without.py')
+    elif sel == '3':        
+        print '\t COMMING SOON...'
+        os.system('xdg-open https://m.facebook.com/marmu.007')
     elif sel == '4':
         main()
     else:
@@ -208,7 +206,7 @@ def log_fb():
             login()
         else:
             print ''
-            print '\t\x1b[1;91mId/pass my be wrong'
+            print '\t\x1b[1;91mId or Password may be wrong..'
             print ''
             time.sleep(1)
 
@@ -225,7 +223,7 @@ def token():
         print ' \t        [\x1b[1;97m\x1b[1;41m  Paste Token  \x1b[0m\x1b[1;93m]'.center(50)
         print ''
         print ''
-        token = raw_input(' \x1b[1;92m[+] Token : \x1b[1;93m')
+        token = raw_input(' \x1b[1;95m[+] Token : \x1b[1;90m')
         sav = open('access_token.txt', 'w')
         sav.write(token)
         sav.close()
@@ -248,7 +246,7 @@ def menu():
         name = q['name']
         logo()
         print ''
-        print '\x1b[1;92m\t Your Token Logged in Sucsessfuly'
+        print '\x1b[1;92m\t Your Token Sucessfull'
         time.sleep(1)
     except KeyError:
         logo()
