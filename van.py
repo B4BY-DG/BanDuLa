@@ -4,25 +4,12 @@
 
 
 try:
-    import os
-    import sys
-    import time
-    import datetime
-    import random
-    import hashlib
-    import re
-    import threading
-    import json
-    import getpass
-    import urllib
-    import cookielib
-    import requests
-    import uuid
-    import string
-    from multiprocessing.pool import ThreadPool
-    from requests.exceptions import ConnectionError
+	import os,sys,time,platform,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib,requests,uuid,string,subprocess
+	from multiprocessing.pool import ThreadPool
+	from requests.exceptions import ConnectionError
 except ImportError:
-    os.system('pip2 install requests')
+	os.system("pip2 install requests lolcat")
+	
 
 agents = [
     'Mozilla/5.0 (Linux; Android 7.0; SM-A310F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.7.2246.114996']
