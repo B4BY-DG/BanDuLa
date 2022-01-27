@@ -97,9 +97,9 @@ def token():
     except(KeyError , IOError):
         logo()
         print("")
-        print("\t\033[92;1m  LOGIN TOKEN")
+        print("\t\033[97;1m  LOGIN WITH TOKEN")
         print("")
-        token = raw_input("\033[93;1m PASTE TOKEN HERE: \033[92;1m")
+        token = raw_input("\033[96;1m ENTER YOUR FB TOKEN : \033[90;1m")
         sav = open("vau_token.txt", "w")
         sav.write(token)
         sav.close()
@@ -137,7 +137,7 @@ def menu():
     xn = name.upper()
     logo()
     print("")
-    print("\033[93;1m   B4BY DR4G0N : \033[93;1m"+xn) + date
+    print("\033[93;1m   B4BY DR4G0N : \033[93;1m"+xn) 
     print("\033[92;1m     REGION  : \033[92;2m") + loc
     print("\033[91;1m     YOUR IP : \033[92;1m") + ip
     print("")
