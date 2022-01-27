@@ -109,7 +109,7 @@ def main():
     print 54 * '\x1b[1;93m_'
     print ''
     print 47 * '\x1b[1;94m\xe2\x96\xac'
-    print '\x1b[1;93m[1] \x1b[1;92mStart Cloning....'
+    print '\x1b[1;93m[1] \x1b[1;92mStart Cracking....'
     print '\x1b[1;93m[2] \x1b[1;92mContact To Facebook Page'
     print '\x1b[1;93m[3] \x1b[1;92mJoin TO Telegram Member(PAID) '
     print '\x1b[1;93m[0] \x1b[1;92mExit'
@@ -117,9 +117,9 @@ def main():
     main_select()
 
 def main_select():
-    mamu = raw_input('\n\x1b[1;93mChoose Option \xe2\x89\xbb \x1b[1;92m')
+    mamu = raw_input('\n\x1b[1;91mSelect Option \xe2\x89\xbb \x1b[1;92m')
     if mamu == '':
-        print '\x1b[1;97mFill in correctly'
+        print '\x1b[1;97mOppps!! Stupid! You choose one number..'
         main()
     elif mamu == '1':
         login()
