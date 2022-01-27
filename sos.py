@@ -96,27 +96,27 @@ id = []
 def menu():
 	os.system('clear')
 	print logo
-	print '\033[1;97m[1]\033[1;97m  Bangladesh'
-	print '\033[1;97m[2]\033[1;97m  USA'
-	print '\033[1;97m[3]\033[1;97m  UK'
-	print '\033[1;97m[4] \033[1;97m India'
-	print '\033[1;97m[5]\033[1;97m  Brazil'
-	print '\033[1;97m[6]\033[1;97m  Japan'
-	print '\033[1;97m[7]\033[1;97m  Korea'
-	print '\033[1;97m[8]\033[1;97m  Italy'
-	print '\033[1;97m[9]\033[1;97m  Spain'
-	print '\033[1;97m[10]\033[1;97m Poland'
-	print '\033[1;97m[11]\033[1;97m Pakistan'
-	print '\033[1;97m[12]\033[1;97m Indonesia'
-	print '\033[1;97m[13]\033[1;97m Iran'
-	print '\033[1;97m[14]\033[1;97m Grecee'
-	print '\033[1;97m[0]  Exit            '
+	print '\033[1;97m[1]\033[1;96m  Bangladesh'
+	print '\033[1;97m[2]\033[1;96m  USA'
+	print '\033[1;97m[3]\033[1;96m  UK'
+	print '\033[1;97m[4] \033[1;96m India'
+	print '\033[1;97m[5]\033[1;96m  Myanmar'
+	print '\033[1;97m[6]\033[1;96m  Japan'
+	print '\033[1;97m[7]\033[1;96m  Korea'
+	print '\033[1;97m[8]\033[1;96m  Italy'
+	print '\033[1;97m[9]\033[1;96m  Spain'
+	print '\033[1;97m[10]\033[1;96m Poland'
+	print '\033[1;97m[11]\033[1;96m Pakistan'
+	print '\033[1;97m[12]\033[1;96m Indonesia'
+	print '\033[1;97m[13]\033[1;96m Iran'
+	print '\033[1;97m[14]\033[1;96m Grecee'
+	print '\033[1;91m[0]  Exit            '
 	print "\033[1;97m--------------------------------------------------\n"
 	action()
  
  
 def action():
-	bch = raw_input('\n\033[1;97m▄︻̷̿┻̿═━一  ')
+	bch = raw_input('\n\033[1;95m▄︻̷̿┻̿═━一  ')
 	if bch =='':
 		print '[!] Fill in correctly'
 		action()
